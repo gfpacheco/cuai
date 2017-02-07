@@ -1,0 +1,26 @@
+{
+  "name": "cuai",
+  "description": "A Cu game AI set",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gfpacheco/cuai.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "eslint-config-google": "0.7.1",
+    "precommit-hook-eslint": "3.0.0"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}

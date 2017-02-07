@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": "google",
+  "rules": {
+    "require-jsdoc": "off",
+    "max-len": [
+      "error",
+      100
+    ]
+  }
+}
