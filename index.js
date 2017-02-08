@@ -36,5 +36,5 @@ server.post('/', (req, res) => {
 });
 
 server.listen(port, function() {
-  console.log(`CuAI listening on port ${port}!`);
+  console.log(`CuAI listening at http://localhost:${port}`);
 });
